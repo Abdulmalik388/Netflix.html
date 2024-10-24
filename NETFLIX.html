@@ -1,0 +1,92 @@
+<Doctype html>
+<html>
+<head>
+
+<title>Netflix.html</title>
+<style>
+
+body {
+      margin: 0;
+      height: 100vh;
+      /* Set your background image */
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('portfolio/adventure1.jpeg');
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+.container{
+display:flex
+}
+.submit{
+width:100px;
+height:30px;
+background-color:red;
+color:white;
+border:none;
+border-radius:5px;
+margin-left:1000px;
+cursor:pointer;
+padding:5px;
+}
+.submit:hover{
+color:blue;
+background-color:white
+}
+h1{
+color:red
+}
+h2{
+font-size:40px;
+}
+section{
+color:white
+}
+.email{
+height:40px;
+width:200px;
+background-color:black
+}
+.getstarted{
+width:150px;
+height:40px;
+background-color:red;
+color:white;
+padding:5px;
+border:none;
+border-radius:4px;
+cursor:pointer;
+transitions: width 
+}
+.getstarted:hover{
+color:red;
+background-color:white
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div  class="container">
+<h1>NETFLIX</h1>
+<a href="signin.html"><input type="button" value="sign in" class="submit" onclick="signin.html"></a>
+
+</div><br><br><br><br><br><br>
+<section>
+<center>
+<h2>Unlimited Movies,<br>TV Shows,and more</h2>
+<h3>start at &euro;2200.cancel anytime</h3>
+<p>Ready to watch?Enter your email to create or restart your membership.</p>
+<form>
+<input type="text" placeholder="email address" class="email">
+<a href="getstarted.html"><input type="button" value="Get Started  >" class="getstarted" onclick="getstarted.html"></a>
+</form>
+
+</center>
+</section>
+
+
+
+
+
+</body>
+</html>
